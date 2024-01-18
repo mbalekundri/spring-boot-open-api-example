@@ -1,0 +1,12 @@
+myapp:
+  openapi:
+    dev-url: http://localhost:8080
+    prod-url: https://openapi-api.com
+springdoc:
+  api-docs:
+    path: /openapi-api-docs
+    enabled: false # To disable make it false
+  swagger-ui:
+    filter: true
+    path: /openapi-documentation
+    tryItOutEnabled: false # To disable make it false
