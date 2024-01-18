@@ -5,8 +5,8 @@ myapp:
 springdoc:
   api-docs:
     path: /openapi-api-docs
-    enabled: false # To disable make it false
+    enabled: true # To disable make it false
   swagger-ui:
     filter: true
     path: /openapi-documentation
-    tryItOutEnabled: false # To disable make it false
+    tryItOutEnabled: true # To disable make it false
